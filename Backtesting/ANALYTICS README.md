@@ -106,7 +106,7 @@ Final ranking CSV:
 
 ---
 
-## ⚙How to Run
+## How to Run
 
 1. Ensure all trade CSVs are placed in `Trade_Sheets/`
 2. Set correct `stock`, `option_type`, and `superset`
