@@ -41,7 +41,7 @@ This is the backtesting script designed to simulate option selling strategies (e
 
 
 ## Core Logic
-
+```
 pull_options_data_d(...)
 Loads .pkl option chain files filtered by month/year and ticker name.
 
@@ -56,7 +56,7 @@ Merges CE/PE ATM and OTM premium legs, applies brokerage and lot sizing rules, a
 
 trade_sheet_creator(...)
 Simulates trades using strategy parameters, logs entry/exit, computes DTE buckets, and saves:
-
+```
 Trade data CSV
 
 Filter summary CSV per parameter set
