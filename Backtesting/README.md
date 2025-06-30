@@ -18,7 +18,7 @@ This is the backtesting script designed to simulate option selling strategies (e
 ---
 
 ##  File Structure
-
+```
 /
 ├── main.py # Parameter loop to generate trades
 ├── trade_sheet_creator.py # Strategy simulation logic
@@ -29,7 +29,7 @@ This is the backtesting script designed to simulate option selling strategies (e
 ├── Common_Functions/
 │ └── utils.py # Shared helper utilities
 ├── README.md # This file
-
+```
 ---
 
 ## Requirements
@@ -88,6 +88,7 @@ This corresponds to:
 Entry at 09:30, Exit at 15:15
 
 ## Workflow Overview
+```
 flowchart TD;
     A[Mapped Trading Days] --> B[Loop over Days]
     B --> C[Pull Index and Option Data]
@@ -97,7 +98,7 @@ flowchart TD;
     F --> G[Append Entry & Exit Rows]
     G --> H[Save Trade Sheet to CSV]
     G --> I[Update Filter DF with DTE]
-    
+```
 ## Batch Backtest Example
 ```bash
 from trade_sheet_creator import trade_sheet_creator
