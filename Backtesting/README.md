@@ -336,7 +336,7 @@ Final statement confirms script completion.
 Run directly:
 
 ```bash
-python main_backtest.py
+python backtest.py
 ```
 
 Ensure:
