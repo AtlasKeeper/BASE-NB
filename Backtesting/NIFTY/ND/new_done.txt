@@ -1,0 +1,2 @@
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2024-06-01_2024-10-30
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2024-02-01_2024-05-31

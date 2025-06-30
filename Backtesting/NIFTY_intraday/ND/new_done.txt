@@ -1,0 +1,9 @@
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2024-06-01_2024-10-30
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2024-02-01_2024-05-31
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2023-10-01_2024-01-31
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2023-06-01_2023-09-30
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2023-02-01_2023-05-31
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2022-10-01_2023-01-31
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2022-06-01_2022-09-30
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2022-01-01_2022-05-31
+NIFTY_candle_5T_strike_0_entry_09,25_exit_15,20_2021-06-01_2021-12-31
