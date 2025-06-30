@@ -14,11 +14,11 @@ import ast, json, sys, re
 def postgresql_query(input_query, input_tuples = None):
     try:
         connection = psycopg2.connect(
-            host = "algo-backtest-data-do-user-14334263-0.b.db.ondigitalocean.com",
+            host = "00.000.00.00",
             port = 25060,
-            database = "defaultdb",
-            user = "doadmin",
-            password = "AVNS_kOwuGIv2gd1DmiPl9Cx",
+            database = "db",
+            user = "user",
+            password = "password",
             sslmode = "require"
         )
         
