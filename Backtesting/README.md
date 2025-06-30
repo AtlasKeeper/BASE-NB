@@ -57,12 +57,13 @@ Merges CE/PE ATM and OTM premium legs, applies brokerage and lot sizing rules, a
 trade_sheet_creator(...)
 Simulates trades using strategy parameters, logs entry/exit, computes DTE buckets, and saves:
 ```
-Trade data CSV
 
-Filter summary CSV per parameter set
+- Trade data CSV
 
-Trade Sheet Format
+- Filter summary CSV per parameter set
 
+## Trade Sheet Format
+```
 Each trade is represented with both entry (Short) and exit (Long) legs.
 
 Column	Description
@@ -76,6 +77,7 @@ CE/PE Premiums	Premium values at entry/exit
 DaysToExpiry	DTE at time of trade
 EXIT_TYPE	TSL, EOD, etc. (exit reason)
 Premium	Signed P&L per leg
+```
 
 ## Sample Strategy File Name
 NIFTY_candle_5_strike_1.03_entry_09,30_exit_15,15.csv
