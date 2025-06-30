@@ -110,12 +110,10 @@ for counter, (tf, strike, entry, exit) in enumerate(params):
 outputs/NIFTY_candle_5_strike_1.03_entry_09,30_exit_15,15.csv
 Entry/exit data per trade (two rows per trade)
 
-outputs/filter_df1.csv
-Row per parameter set
-
-DTE0–DTE4 column flags
-
-Status = 1 if any DTE profitable
+- outputs/filter_df1.csv
+- Row per parameter set
+- DTE0–DTE4 column flags
+- Status = 1 if any DTE profitable
 
 ## Tips
 - Remove expired or holiday dates in mapped_days manually if needed.
