@@ -17,21 +17,6 @@ This is the backtesting script designed to simulate option selling strategies (e
 
 ---
 
-##  File Structure
-```
-/
-├── main.py # Parameter loop to generate trades
-├── trade_sheet_creator.py # Strategy simulation logic
-├── data/
-│ ├── option_data/ # Pickle files of option chain data
-│ └── mapped_days.csv # Trading calendar + expiry mapping
-├── outputs/ # Trade sheet and filter CSVs
-├── Common_Functions/
-│ └── utils.py # Shared helper utilities
-├── README.md # This file
-```
----
-
 ## Requirements
 
 - Python 3.8+
