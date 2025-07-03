@@ -61,7 +61,7 @@ For each daily P\&L file, this section:
 * Computes:
 
   * Total PnL
-  * Max Drawdown, %DD, Time to Recover
+  * Max Drawdown, Time to Recover
   * Median/Max/Min PnL
   * ROI, Sortino Ratio
   * Win %, Profit/Loss counts
