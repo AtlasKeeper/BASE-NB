@@ -42,8 +42,8 @@ output_folder = root_dir + f'/{stock}/{option_type}/final_tradesheet/'
 
 os.makedirs(output_folder, exist_ok=True)
 
-lot_size_dict = {'NIFTY': 75,'FINNIFTY': 65,
-            'BANKNIFTY': 30 , 'SENSEX' : 20}
+lot_size_dict = {'NIFTY': 75,'FINNIFTY': 25,
+            'BANKNIFTY': 15 , 'SENSEX' : 20}
 govt_tc_dict = {"NIFTY": 2.25, 'FINNIFTY': 2.25 ,
            "BANKNIFTY": 3 , 'SENSEX' : 3}
 
